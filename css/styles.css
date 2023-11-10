@@ -15,19 +15,19 @@ body {
 }
 
 .sidebar-section {
-  background-color: rgb(79, 94, 163);
+  background-color: rgb(71, 84, 137);
   width: 100%;
   padding-top: 40px;
-  display: inline; 
+  display: inline;
 }
 
-.sidebar-item{
+.sidebar-item {
   padding: 10px 20px 10px 20px;
 }
 
-.image-profile img{
+.image-profile img {
   width: 100%;
-  
+
 }
 
 .sidebar-title {
@@ -72,7 +72,7 @@ body {
 }
 
 .main-content-section {
-  padding: 102px 60px;
+  padding: 100px 60px 10px 60px;
 }
 
 .about-me-section {
@@ -91,12 +91,12 @@ body {
   margin: 0;
   font-weight: bold;
   font-size: 45px;
-  line-height: 55px;
+  text-align: start;
 }
 
 .profile-description {
   width: 100%;
-  text-align: justify; 
+  text-align: justify;
   font-size: 14px;
   line-height: 24px;
   color: rgb(100, 94, 71);
@@ -136,16 +136,23 @@ body {
 .my-certificacion,
 .my-education-section,
 .my-work-experience-section {
-  margin-bottom: 43px;
+  margin: 40px 0 40px 0;
 }
 
-.my-work-experience-position,
-.my-education-title,
-.my-work-experience-title {
+.my-work-experience-position {
   font-weight: bold;
   font-size: 22px;
   line-height: 27px;
   margin: 0 0 12px 0;
+}
+
+.my-education-title,
+.my-certifications-title,
+.my-work-experience-title {
+  font-weight: bold;
+  font-size: 28px;
+  margin: 0 0 12px 0;
+  color: rgb(75, 33, 24);
 }
 
 .my-work-experience-company {
@@ -168,7 +175,7 @@ body {
   margin: 0 0 8px 0;
   font-size: 12px;
   line-height: 15px;
-  color: rgb(168, 168, 168);
+  color: rgb(152, 150, 150);
 }
 
 .my-work-experience-divider {
@@ -185,6 +192,12 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: rgb(100, 94, 71);
+}
+
+.my-work-experience-duty a{
+  text-decoration: none;
+  color: rgb(75, 33, 24);
+  font-weight: bold;
 }
 
 .my-education-institute {
