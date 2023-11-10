@@ -2,7 +2,7 @@ body {
   background-color: rgb(242, 242, 242);
   font-family: 'Montserrat', sans-serif;
   color: #4b2118;
-  text-align: justify;
+  text-align: start;
 }
 
 #main-container {
@@ -96,7 +96,7 @@ body {
 
 .profile-description {
   width: 100%;
-  text-align: justify;
+  text-align: start;
   font-size: 14px;
   line-height: 24px;
   color: rgb(100, 94, 71);
